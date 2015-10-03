@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fun Website</title>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/music.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            
+            <div class="logo">
+                <h2>FUN</h2>
+            </div>
+
+            <!------------------------ Navigation Menu---------------------------->
+            <div class="nav" id="newNav">
+                <ul class="topLevel">
+                    <li><a href=""></a></li><li>
+                        <a href=""></a>
+                        <ul class="stuffsLevel">
+                            <li><a href=""></a></li><li><a href=""></a></li><li><a href=""></a></li><li><a href=""></a></li><li><a href=""></a></li>
+                        </ul>
+                        </li><li>
+                        <a href=""></a></li><a href="" class="login_hide">Login</a>
+                </ul>
+            </div>
+            <!------------------------ Navigation Menu---------------------------->  
+
+            <div class="nav_barForm">
+                <div class="formWrapper">
+                    <form name="loginForm" action="validateuser.jsp" method="post" onsubmit="return validateform(this)" class="myForm">
+                        <label>Username: <input type="text" name="name"> </label>
+                        <label>Password: <input type="password" name="password"></label>
+                        <input type="submit" value="Login" class="my_btn">
+                    </form>
+                </div>                
+            </div>
+            <div class="btnContainer">
+                <input type="submit" value="Login" class="my_btn">
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="wrapper heading_wrapper">
+            <div class="heading">
+                <h1>Welcome to my Portal</h1></br>
+                <p>It's the gateway to my laptop. Hope you enjoy it. You can surf internet or watch movies, documentaries to entertain yourself. You can look at the pictures or listen to the music. Or if you feel like writing something or read what I've written until now there's a blog section too. So check it out.</p>
+            </div>    
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="main_content_wrapper">
+            <div class="sidenav">
+                <h3>Music Archives</h3>
+                <ul>
+                        <li><a href="">2015</a>
+                            <ul>
+                                <li><a href="">Singapore</a></li><li><a href="">Random</a></li>
+                            </ul>
+                        </li><li><a href="">2014</a>
+                        </li><li><a href="">2013</a>
+                        </li><li><a href="">2012</a>
+                        </li><li><a href="">2011</a>
+                        </li><li><a href="">2010</a>
+                                <ul>
+                                    <li><a href="">Melbourne</a></li><li><a href="">Philippines</a></li>
+                                </ul>
+                            </li><li><a href="">2009</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="content">
+                <div class="imagewrap">
+                    <!-- <img src="img/sg/IMG_0201.JPG">                     -->
+                    <ul class="flexContainer">
+                        <li class="flexIt wrapper"><span class="_label">RadioHead - Creep</span><a href=""><img src="/htmls/music/audios/thmb/radiohead-creep.jpg"></img></a></li>
+                        <li class="flexIt wrapper"><span class="_label">RadioHead - National Anthem</span></li>
+                        <li class="flexIt wrapper"><span class="_label">RadioHead - How to Disappear Completely</span></li>
+                        <li class="flexIt wrapper"><span class="_label">RadioHead - House of Cards</span></li>
+                        <li class="flexIt wrapper"><span class="_label">Deftones - Passenger</span></li>
+                        <li class="flexIt wrapper"><span class="_label">Tool - Parabola</span></li>
+                        <li class="flexIt wrapper"><span class="_label">Tool - Sober</span></li>
+                        <li class="flexIt wrapper"><span class="_label">Tool - Stinkfist</span></li>
+                        <li class="flexIt wrapper"><span class="_label">Tool - Vicarious</span></li>
+                    </ul>
+                    
+                    
+                    
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+        </div>    
+            
+            
+            
+            
+            
+            
+            
+            
+            <!--------------------Music Player--------------->
+            
+            
+            
+            
+        
+        <div class="audioPlayerContainer wrapper">
+            <div class="relativeWrapper">
+                <!--<div class="audioBar"></div>-->
+                <div class="audioBar"><h6><i class="fa fa-music fa-2x"></i>audio </br> bar</h6></div>
+                <div class="aPCController">
+                    <a class="playerBtn" id="prev" href="" title=""><i class="fa fa-step-backward fa-2x"></i></a>
+                    <a class="playerBtn" id="play" href="" title=""><i class="fa fa-play fa-2x"></i></a>
+                    <a class="playerBtn" id="pause" href="" title=""><i class="fa fa-pause fa-2x"></i></a>
+                    <a class="playerBtn" id="next" href="" title=""><i class="fa fa-step-forward fa-2x"></i></a>
+                    
+                    
+                </div>
+                <!--<div id="seekWrapper"><p id="seek"><span id="title">some random title</span></p></div>-->
+                <div id="seekWrapper"><input type="range" id="seek" value="0" max=""></div>
+                
+                <!--<canvas id="previous" width="50px" height="50px" onmouseover=""></canvas>
+                <canvas id="play" width="50px" height="50px" onmouseover=""></canvas>
+                <canvas id="next" width="50px" height="50px" onmouseover=""></canvas>-->
+            </div>  
+        </div>
+
+    </article>
+    
+    
+    <!--SCRIPTS!!!!!!!!!!!!!!!! -->
+    <script type="text/javascript" src="js/navbar.js"></script>
+    <!--<script type="text/javascript" src="js/audioPlayer.js"></script>-->
+</body>
+</html>

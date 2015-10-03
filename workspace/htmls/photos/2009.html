@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <title>Fun Website</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/photos.css">
+    <link rel="stylesheet" type="text/css" href="../css/2015.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            
+            <div class="logo">
+                <h2>FUN</h2>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li><li>
+                        <a href="">Stuffs</a>
+                        <ul>
+                            <li><a href="http://localhost/wordpress/">Blog</a></li><li><a href="../music.html">Music</a></li><li><a href="../photos.html">Photos</a></li><li><a href="../videos.html">Videos</a></li>
+                        </ul>
+                        </li><li>
+                        <a href="../contact.html">Contact</a></li><a href="" class="login_hide">Login</a>
+                </ul>
+            </div>
+
+            <div class="nav_barForm">
+                <div class="formWrapper">
+                    <form name="loginForm" action="validateuser.jsp" method="post" onsubmit="return validateform(this)" class="myForm">
+                        <label>Username: <input type="text" name="name"> </label>
+                        <label>Password: <input type="password" name="password"></label>
+                        <input type="submit" value="Login" class="my_btn">
+                    </form>
+                </div>                
+            </div>
+            <div class="btnContainer">
+                <input type="submit" value="Login" class="my_btn">
+            </div>
+        </div>
+    </header>
+
+    <article>
+        <div class="wrapper heading_wrapper">
+            <div class="heading">
+                <h1>Welcome to my Portal</h1></br>
+                <p>It's the gateway to my laptop. Hope you enjoy it. You can surf internet or watch movies, documentaries to entertain yourself. You can look at the pictures or listen to the music. Or if you feel like writing something or read what I've written until now there's a blog section too. So check it out.</p>
+            </div>    
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class=" main_content_wrapper">
+            <div class="sidenav">
+                <h3>Photo Archives</h3>
+                <ul>
+                        <li><a href="2015.html">2015</a>
+                            <ul>
+                                <li><a href="2015.html">Singapore</a></li><li><a href="2015.html">Random</a></li>
+                            </ul>
+                        </li><li><a href="2014.html">2014</a>
+                        </li><li><a href="2013.html">2013</a>
+                        </li><li><a href="2012.html">2012</a>
+                        </li><li><a href="2011.html">2011</a>
+                        </li><li><a href="2010.html">2010</a>
+                                <ul>
+                                    <li><a href="2010.html">Melbourne</a></li><li><a href="2010.html">Philippines</a></li>
+                                </ul>
+                            </li><li><a href="2009.html" class="selected" >2009</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="content">
+                <div class="imagewrap">
+                    <!-- <img src="img/sg/IMG_0201.JPG">                     -->
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+</html>

@@ -1,0 +1,31 @@
+::-webkit-input-placeholder {
+   color: bisque;
+   font-size: 0.7rem;
+}
+.rps, .navbarArray {
+	position: relative;
+	width: 80%;
+	margin: 0 10% 5%;
+}
+
+.navbarArray, .navbarArray:hover {
+	background-color: #000;
+	height: 200px;
+}
+
+h2 { margin: 2%;}
+
+label{display: inline-block; float: left; width:30%; text-align: right;}
+.rps input{display: inline-block; float: left; background-color: #c01f2c; border-color:#101f2c; margin-top: 1.95px;}
+.rps .alignBtn{width: 30%; height: 50px; float: left;}
+.rps button{margin: 2%; width: 10%; line-height: 2; float: left;}
+
+.rps #errorText{
+	float:left;
+	margin: 0.5% 0 0 1%; 
+	width: 32%; 
+	color:#fff; 
+	background-color: rgba(255, 255, 255, 0); 
+	border: none; font-size: small;
+	row: 3;
+	}

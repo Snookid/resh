@@ -1,0 +1,55 @@
+[Mon Sep 21 11:16:14.289156 2015] [mpm_prefork:notice] [pid 1799] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Mon Sep 21 11:16:14.289249 2015] [core:notice] [pid 1799] AH00094: Command line: 'apache2'
+[Mon Sep 21 11:16:28.543535 2015] [core:info] [pid 1809] [client 10.240.49.97:59013] AH00128: File does not exist: /home/ubuntu/workspace/acc_prac/img/sg/IMG_0201.JPG, referer: https://own-snookid.c9.io/acc_prac/
+[Mon Sep 21 11:17:17.985879 2015] [core:info] [pid 1806] [client 10.240.167.252:58066] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/
+[Mon Sep 21 11:17:24.118177 2015] [core:info] [pid 1809] [client 10.240.49.97:59376] AH00128: File does not exist: /home/ubuntu/workspace/acc_prac/img/sg/IMG_0201.JPG, referer: https://own-snookid.c9.io/acc_prac/
+[Mon Sep 21 11:20:26.780706 2015] [core:info] [pid 1808] [client 10.240.167.252:59470] AH00128: File does not exist: /home/ubuntu/workspace/acc_prac/img/sg/IMG_0201.JPG, referer: https://own-snookid.c9.io/acc_prac/
+[Mon Sep 21 11:20:37.177847 2015] [core:info] [pid 1892] [client 10.240.49.97:60750] AH00128: File does not exist: /home/ubuntu/workspace/acc_prac/img/sg/IMG_0201.JPG, referer: https://own-snookid.c9.io/acc_prac/photos.html
+[Mon Sep 21 15:24:04.443979 2015] [core:info] [pid 1809] [client 10.240.255.126:44952] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/
+[Mon Sep 21 15:42:36.462789 2015] [core:info] [pid 1892] [client 10.240.49.97:36344] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Tue Sep 22 13:49:05.056245 2015] [core:info] [pid 1808] [client 10.240.49.97:40476] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Tue Sep 22 18:21:38.775914 2015] [mpm_prefork:notice] [pid 1799] AH00169: caught SIGTERM, shutting down
+[Tue Sep 22 18:21:39.560197 2015] [mpm_prefork:notice] [pid 7920] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Tue Sep 22 18:21:39.560248 2015] [core:notice] [pid 7920] AH00094: Command line: 'apache2'
+[Tue Sep 22 21:02:26.304617 2015] [core:info] [pid 7927] [client 10.240.213.116:36299] AH00128: File does not exist: /home/ubuntu/workspace/undefined, referer: http://own-snookid.c9.io/index.html
+[Tue Sep 22 21:03:46.577687 2015] [core:info] [pid 7931] [client 10.240.255.126:35107] AH00128: File does not exist: /home/ubuntu/workspace/project.html
+[Tue Sep 22 21:04:33.419721 2015] [core:info] [pid 7931] [client 10.240.6.30:42834] AH00128: File does not exist: /home/ubuntu/workspace/undefined, referer: http://own-snookid.c9.io/index.html
+[Tue Sep 22 21:04:58.949986 2015] [core:info] [pid 7939] [client 10.240.212.249:59716] AH00128: File does not exist: /home/ubuntu/workspace/project.html
+[Wed Sep 23 16:32:11.789504 2015] [core:info] [pid 7927] [client 10.240.179.74:37288] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Wed Sep 23 19:06:24.769274 2015] [core:info] [pid 7939] [client 10.240.167.252:56475] AH00128: File does not exist: /home/ubuntu/workspace/undefined, referer: http://own-snookid.c9.io/contact.html
+[Wed Sep 23 19:37:04.452470 2015] [core:info] [pid 7927] [client 10.240.167.252:36031] AH00128: File does not exist: /home/ubuntu/workspace/graphics.html, referer: http://own-snookid.c9.io/index.html
+[Wed Sep 23 19:42:44.756308 2015] [mpm_prefork:notice] [pid 7920] AH00169: caught SIGTERM, shutting down
+[Wed Sep 23 19:42:45.527782 2015] [mpm_prefork:notice] [pid 10812] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Wed Sep 23 19:42:45.527833 2015] [core:notice] [pid 10812] AH00094: Command line: 'apache2'
+[Wed Sep 23 19:57:25.591015 2015] [core:info] [pid 10823] [client 10.240.167.252:40897] AH00128: File does not exist: /home/ubuntu/workspace/graphics.html, referer: http://own-snookid.c9.io/music.html
+[Thu Sep 24 19:01:16.506244 2015] [core:warn] [pid 2587] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 24 19:01:16.512504 2015] [mpm_prefork:notice] [pid 2587] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Thu Sep 24 19:01:16.512553 2015] [core:notice] [pid 2587] AH00094: Command line: 'apache2'
+[Thu Sep 24 19:01:21.728715 2015] [core:info] [pid 2608] [client 10.240.167.252:37460] AH00128: File does not exist: /home/ubuntu/workspace/acc_prac/index.html, referer: https://ide.c9.io/snookid/own
+[Thu Sep 24 19:02:27.944790 2015] [mpm_prefork:notice] [pid 2587] AH00169: caught SIGTERM, shutting down
+[Thu Sep 24 19:02:29.047142 2015] [mpm_prefork:notice] [pid 3081] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Thu Sep 24 19:02:29.047207 2015] [core:notice] [pid 3081] AH00094: Command line: 'apache2'
+[Thu Sep 24 19:02:51.770927 2015] [mpm_prefork:notice] [pid 3081] AH00169: caught SIGTERM, shutting down
+[Thu Sep 24 19:02:52.832828 2015] [mpm_prefork:notice] [pid 3513] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Thu Sep 24 19:02:52.832912 2015] [core:notice] [pid 3513] AH00094: Command line: 'apache2'
+[Thu Sep 24 19:04:53.229890 2015] [core:info] [pid 3521] [client 10.240.179.74:34207] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Sat Sep 26 13:59:54.859242 2015] [core:warn] [pid 2351] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 26 13:59:54.865134 2015] [mpm_prefork:notice] [pid 2351] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Sat Sep 26 13:59:54.865164 2015] [core:notice] [pid 2351] AH00094: Command line: 'apache2'
+[Sat Sep 26 14:00:01.177233 2015] [core:info] [pid 2376] [client 10.240.179.74:54640] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/
+[Mon Sep 28 19:26:25.096472 2015] [core:warn] [pid 1794] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 28 19:26:25.101841 2015] [mpm_prefork:notice] [pid 1794] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Mon Sep 28 19:26:25.101869 2015] [core:notice] [pid 1794] AH00094: Command line: 'apache2'
+[Mon Sep 28 19:27:42.167102 2015] [core:info] [pid 1812] [client 10.240.179.74:41529] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
+[Tue Sep 29 13:39:20.516576 2015] [core:info] [pid 1812] [client 10.240.6.30:43196] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/index.html
+[Wed Sep 30 18:04:46.875558 2015] [core:info] [pid 1813] [client 10.240.179.74:58192] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Thu Oct 01 19:07:22.125273 2015] [core:warn] [pid 4604] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Oct 01 19:07:22.132520 2015] [mpm_prefork:notice] [pid 4604] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Thu Oct 01 19:07:22.132570 2015] [core:notice] [pid 4604] AH00094: Command line: 'apache2'
+[Thu Oct 01 22:09:51.300635 2015] [core:info] [pid 4858] [client 10.240.213.116:33616] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Thu Oct 01 23:35:52.739461 2015] [core:info] [pid 4865] [client 10.240.213.116:59124] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
+[Fri Oct 02 02:01:06.030267 2015] [mpm_prefork:notice] [pid 4604] AH00169: caught SIGTERM, shutting down
+[Fri Oct 02 02:01:07.187005 2015] [mpm_prefork:notice] [pid 10669] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Fri Oct 02 02:01:07.187085 2015] [core:notice] [pid 10669] AH00094: Command line: 'apache2'
+[Fri Oct 02 13:42:16.404356 2015] [core:info] [pid 10678] [client 10.240.179.74:39333] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
+[Fri Oct 02 21:34:27.626894 2015] [core:info] [pid 10682] [client 10.240.169.177:38131] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/

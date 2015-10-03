@@ -1,0 +1,18 @@
+/*.selected ul {
+					display: block;
+					pointer-events:none;
+					position: relative;
+				}
+*/
+
+				/*.sidenav ul li:active ul {
+					display: block;
+					position: relative;
+				}*/
+				.sidenav ul li a.selected + ul {
+					position: relative;
+					display: block;
+					width: inherit;
+					background-color: #c01f2c;
+					padding-right: 10px;
+				}

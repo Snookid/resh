@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fun Website</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            
+            <div class="logo">
+                <h2>FUN</h2>
+            </div>
+            
+            <!------------------------ Navigation Menu---------------------------->
+            <div class="nav" id="newNav">
+                <ul class="topLevel">
+                    <li><a href=""></a></li><li>
+                        <a href=""></a>
+                        <ul class="stuffsLevel">
+                            <li><a href=""></a></li><li><a href=""></a></li><li><a href=""></a></li><li><a href=""></a></li><li><a href=""></a></li>
+                        </ul>
+                        </li><li>
+                        <a href=""></a></li><a href="" class="login_hide">Login</a>
+                </ul>
+            </div>
+            <!------------------------ Navigation Menu---------------------------->            
+
+            <div class="nav_barForm">
+                <div class="formWrapper">
+                    <form name="loginForm" action="validateuser.jsp" method="post" onsubmit="return validateform(this)" class="myForm">
+                        <label>Username: <input type="text" name="name"> </label>
+                        <label>Password: <input type="password" name="password"></label>
+                        <input type="submit" value="Login" class="my_btn">
+                    </form>
+                </div>                
+            </div>
+            <div class="btnContainer">
+                <input type="submit" value="Login" class="my_btn">
+            </div>
+        </div>
+    </header>
+    <!------------------------------Main Content----------------------->
+    <article>
+        <div class="wrapper heading_wrapper">
+            <div class="heading">
+                <h1>Welcome to my Portal</h1></br>
+                <p>It's the gateway to my laptop. Hope you enjoy it. You can surf internet or watch movies, documentaries to entertain yourself. You can look at the pictures or listen to the music. Or if you feel like writing something or read what I've written until now there's a blog section too. So check it out.</p>
+            </div>    
+        </div>
+
+        <div class="clearfix"></div>
+
+        <!------------------------------Rock Paper Scissors ----------------------->
+        <div class="wrapper rps">
+            <h2>Rock Paper Scissors</h2>
+            <form name="rpsForm" class="rpsForm">
+                    <div>
+                        <label>Your Choice:</label> <input type="text" name="uChoice" id="uChoice" placeHolder="Rock Paper or Scissors" value="" required /> <div id="errorText" value=""> </div><br class="brFix"/>
+                        <label>Computer's choice:</label> <input type="text" name="display" value=""><br />
+                        <div class="clearfix"></div>
+                        <div class="alignBtn"></div>
+                        <button type="button" onClick="doMe(rpsForm)">Play!</button>
+                        <br class="brFix" />
+                    </div>
+
+                    <div style="float: right">
+                        <h4 id="boo"></h4>
+                        <h3 id="resultH"></h3>
+                        <br class="brFix" />
+                    </div>
+                    
+                    <br class="brFix" />
+
+             </form>
+         </div>
+
+        <!------------------------------Nav Bar Arrays----------------------->
+         <div class="wrapper navbarArray">
+            <h2>Nav Bar Array</h2>
+            
+            <div class="nav">
+                <ul class="topLevel">
+                    <li><a href=""></a></li>
+                    <li><a href=""></a>
+                        <ul class="stuffsLevel">
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            
+         </div>  
+    </article>
+    
+    
+    <!--SCRIPTS!!!!!!!!!!!!!!!! -->
+    <script type="text/javascript" src="js/rpsGame.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
+</body>
+</html>

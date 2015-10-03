@@ -1,0 +1,100 @@
+.main_content_wrapper{
+	/*border: 1px solid white;*/
+	min-height: 700px;
+}
+
+li~li{ border-top: 1px solid #2e2e2e;}
+	.sidenav {
+		padding-top: 5%;
+		padding-left: 2%;
+		display: table-cell;
+		position: relative;
+		width: 20%;
+		vertical-align: top;
+		background-color: #c01f2c;
+		text-align: center;
+		/*border: 1px solid green;*/
+	}
+
+		.sidenav h3 { padding-bottom: 15px;}
+		.sidenav ul{ position:relative; }
+
+			.sidenav ul li:hover, .selected{
+				background-color: #2e2e2e; 
+			}
+				.sidenav ul li a {
+					color:white;
+					display: block;
+					line-height: 3rem;
+					font-size: 1.25rem;
+				}
+
+				.sidenav ul li:hover ul {
+					display: block;
+					position: relative;
+				}
+
+				.sidenav ul li ul li:hover, .selected{
+					border-left: 5px solid white;
+				}
+
+				.sidenav ul ul {
+					position: absolute;
+					display: none;
+					width: inherit;
+					background-color: #c01f2c;
+					padding-right: 10px;
+				}
+
+				.sidenav ul ul a {
+					font-size: 1rem;
+					text-align: right;
+					padding-right: 10px;
+				}
+
+	.content{
+		display: table-cell;
+		position: relative;              /*<<<<<<<<<VERYVERYVERY VERY VERY IMPORTANT!*/
+		width: 80%;
+		max-height: 700px;
+		/*border: 5px solid red;*/
+
+	}
+
+		/*.imagewrap{
+			display: block;
+			overflow: hidden;
+			max-height: 700px;
+		}*/
+
+			.imagewrap img{
+				max-width: 100%;
+				display: block;
+				/*position: absolute;
+				top: 0; bottom: 0;
+				margin: auto;
+				overflow: hidden;*/
+			}
+
+
+
+		/*.imagewrap{position: relative; }
+
+			.imagewrap > ul{background-color: #f80248; list-style-type: none;}
+
+			.imagewrap ul li{display: inline-block; position: relative;}
+
+			.imagewrap ul li:hover {background-color: #505050;}
+				.imagewrap ul li:hover ul {display: block;}
+			
+
+				.imagewrap ul ul {width: inherit; position: absolute; display: none; white-space: nowrap; background-color: #f80248;}
+				.imagewrap ul ul li {display: block; white-space: nowrap;}
+
+					.imagewrap a{padding: 0 2rem; line-height: 2rem; color: #fff;}*/
+
+
+
+		.imagewrap {position:relative;}
+		.imagewrap ul{display:block; background-color: ##f10707;}
+		.imagewrap ul li{background-color: ##f10707;}
