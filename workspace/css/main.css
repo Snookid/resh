@@ -27,8 +27,11 @@ body{
 		border-top: 5px solid #c01f2c;
 		border-bottom: 1px solid #cfcfcf;
 		background-color: #2f2f2f;
+		position:fixed;
+		width: 100%;
+		z-index: 2;
 	}
-
+		
 		.nav_bar{
 			color: #fff;
 			background-color: #000;
@@ -36,7 +39,7 @@ body{
 			smargin-left: 15%;
 			padding-bottom: 0.05%;
 			position: relative;
-			z-index: 1;
+			/*z-index: 1;*/
 		}
 
 			.logo{

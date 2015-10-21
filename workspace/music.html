@@ -81,16 +81,8 @@
             <div class="content">
                 <div class="imagewrap">
                     <!-- <img src="img/sg/IMG_0201.JPG">                     -->
-                    <ul class="flexContainer">
-                        <li class="flexIt wrapper"><span class="_label">RadioHead - Creep</span><a href=""><img src="/htmls/music/audios/thmb/radiohead-creep.jpg"></img></a></li>
-                        <li class="flexIt wrapper"><span class="_label">RadioHead - National Anthem</span></li>
-                        <li class="flexIt wrapper"><span class="_label">RadioHead - How to Disappear Completely</span></li>
-                        <li class="flexIt wrapper"><span class="_label">RadioHead - House of Cards</span></li>
-                        <li class="flexIt wrapper"><span class="_label">Deftones - Passenger</span></li>
-                        <li class="flexIt wrapper"><span class="_label">Tool - Parabola</span></li>
-                        <li class="flexIt wrapper"><span class="_label">Tool - Sober</span></li>
-                        <li class="flexIt wrapper"><span class="_label">Tool - Stinkfist</span></li>
-                        <li class="flexIt wrapper"><span class="_label">Tool - Vicarious</span></li>
+                    <ul class="flexContainer" id="audioGallery">
+                        <!--audioPlayer.js brings in the Gallery -->
                     </ul>
                     
                     
@@ -122,18 +114,18 @@
         <div class="audioPlayerContainer wrapper">
             <div class="relativeWrapper">
                 <!--<div class="audioBar"></div>-->
-                <div class="audioBar"><h6><i class="fa fa-music fa-2x"></i>audio </br> bar</h6></div>
+                <div class="audioBar"><h6><i class="fa fa-music fa-2x"></i><span>audio </br> bar</span></h6></div>
                 <div class="aPCController">
                     <a class="playerBtn" id="prev" href="" title=""><i class="fa fa-step-backward fa-2x"></i></a>
                     <a class="playerBtn" id="play" href="" title=""><i class="fa fa-play fa-2x"></i></a>
-                    <a class="playerBtn" id="pause" href="" title=""><i class="fa fa-pause fa-2x"></i></a>
+                    <a class="playerBtn" id="stop" href="" title=""><i class="fa fa-stop fa-2x"></i></a>
                     <a class="playerBtn" id="next" href="" title=""><i class="fa fa-step-forward fa-2x"></i></a>
                     
                     
                 </div>
                 <!--<div id="seekWrapper"><p id="seek"><span id="title">some random title</span></p></div>-->
-                <div id="seekWrapper"><input type="range" id="seek" value="0" max=""></div>
-                
+                <div class="seekWrapper seek" id="seekWrapper"><input type="range" id="seek" value="0" max=""><span class="_label" id="songInfo"><p></p><p></p></span></div>
+                <div class="seekWrapper vol" id="volWrapper"><input type="range" id="vol" value="0" max="10"></div>
                 <!--<canvas id="previous" width="50px" height="50px" onmouseover=""></canvas>
                 <canvas id="play" width="50px" height="50px" onmouseover=""></canvas>
                 <canvas id="next" width="50px" height="50px" onmouseover=""></canvas>-->
@@ -145,6 +137,6 @@
     
     <!--SCRIPTS!!!!!!!!!!!!!!!! -->
     <script type="text/javascript" src="js/navbar.js"></script>
-    <!--<script type="text/javascript" src="js/audioPlayer.js"></script>-->
+    <script type="text/javascript" src="js/audioPlayer.js"></script>
 </body>
 </html>

@@ -94,16 +94,5 @@ console.log(ico);
 var titleText = "Portal de Resh";
 
 document.title = titleText;
-/*
-var title = document.title;
-
-title = "Passion before Rationality before Conformity";
-
-var i = document.createElement('i');
-i.className = "fa fa-hand-peace-0 fa-lg";
-document.title.appendChild(i);
 
 
-var gh = document.getElementsByTagName('title');
-gh.prototype.innerHTML = 'Passion before Rationality before Conformity';
-console.log(gh);*/

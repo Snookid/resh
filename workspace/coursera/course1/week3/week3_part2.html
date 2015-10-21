@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Coursera Week 3</title>
+        <style type="text/css">
+            h2, p{display: block; text-align: center; margin: 2% auto;}
+            p{font-size: 2rem;}
+            
+            div{position: absolute; top:20%; width:40%; height: 40vw; background-color: #c2c2c2; display: inline-block;}
+                div img{position:absolute;}
+                
+            #leftSide{border-right: 1px solid #c0132f; margin: 2% 0 2% 10%;}
+            #rightSide{margin: 2% 10% 2% calc(50% + 1px);}
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        <h2>Matching Game</h2>
+        <p>Find the extra smiling face on the left section.</p>
+        
+        
+        <div id="leftSide">
+            
+        </div>
+        <div id="rightSide">
+            
+        </div>
+        
+        
+        <script>
+            var numberOfFaces = 5,
+            leftSide = document.getElementById("leftSide"), x, y;
+    
+            function resize(){
+                x = leftSide.clientWidth,
+                y = leftSide.clientHeight;
+                
+                generateFaces(x, y);
+            }
+
+
+            function generateFaces(lt, tp){
+
+                for(var i=0; i < numberOfFaces; i++){
+                    var smile = document.createElement('img');
+                    smile.src = "cd.png";
+                    smile.style.top = (Math.random() * (tp-33))  +"px";
+                    smile.style.left = (Math.random() * (lt-33)) + "px"
+                    leftSide.appendChild(smile);
+
+                }
+                // return leftSide.appendChild(smile);
+            }
+            
+            window.addEventListener("resize", resize, false);
+            document.addEventListener("DOMContentLoaded", resize, false);
+        </script>
+    </body>
+</html>

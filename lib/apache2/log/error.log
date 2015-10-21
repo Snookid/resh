@@ -53,3 +53,77 @@
 [Fri Oct 02 02:01:07.187085 2015] [core:notice] [pid 10669] AH00094: Command line: 'apache2'
 [Fri Oct 02 13:42:16.404356 2015] [core:info] [pid 10678] [client 10.240.179.74:39333] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
 [Fri Oct 02 21:34:27.626894 2015] [core:info] [pid 10682] [client 10.240.169.177:38131] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Sat Oct 03 05:38:59.295690 2015] [core:info] [pid 10679] [client 10.240.167.252:35323] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/deftones_passenger.jpg, referer: https://own-snookid.c9.io/music.html
+[Sat Oct 03 18:23:31.142101 2015] [core:warn] [pid 2595] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Oct 03 18:23:31.148681 2015] [mpm_prefork:notice] [pid 2595] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Sat Oct 03 18:23:31.148719 2015] [core:notice] [pid 2595] AH00094: Command line: 'apache2'
+[Sat Oct 03 22:25:33.936458 2015] [core:info] [pid 2612] [client 10.240.179.74:38718] AH00128: File does not exist: /home/ubuntu/workspace/validateuser.jsp, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:17.950662 2015] [core:info] [pid 2612] [client 10.240.167.252:49593] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-vicarious.png, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:17.980992 2015] [core:info] [pid 2613] [client 10.240.179.74:38135] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-sober.jpg, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:18.168429 2015] [core:info] [pid 2616] [client 10.240.167.252:49595] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-stinkfist.jpg, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:18.195078 2015] [core:info] [pid 2615] [client 10.240.167.252:49596] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-parabola.jpg, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:22.754803 2015] [core:info] [pid 5486] [client 10.240.167.252:49681] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-vicarious.png, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:22.782601 2015] [core:info] [pid 2612] [client 10.240.167.252:49682] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-stinkfist.jpg, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:22.810089 2015] [core:info] [pid 2613] [client 10.240.167.252:49683] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-sober.jpg, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:47:22.867512 2015] [core:info] [pid 2615] [client 10.240.167.252:49686] AH00128: File does not exist: /home/ubuntu/workspace/htmls/music/audios/thmb/radiohead-parabola.jpg, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 04 10:59:01.752652 2015] [core:info] [pid 2613] [client 10.240.167.252:56479] AH00128: File does not exist: /home/ubuntu/workspace/songs[0].file, referer: https://own-snookid.c9.io/music.html
+[Tue Oct 06 13:25:13.870846 2015] [core:warn] [pid 3402] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 06 13:25:13.878008 2015] [mpm_prefork:notice] [pid 3402] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Tue Oct 06 13:25:13.878045 2015] [core:notice] [pid 3402] AH00094: Command line: 'apache2'
+[Wed Oct 07 15:43:48.653029 2015] [core:warn] [pid 3831] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Oct 07 15:43:48.658894 2015] [mpm_prefork:notice] [pid 3831] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Wed Oct 07 15:43:48.658937 2015] [core:notice] [pid 3831] AH00094: Command line: 'apache2'
+[Wed Oct 07 15:43:54.241865 2015] [core:info] [pid 3846] [client 10.240.0.8:50234] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
+[Mon Oct 12 15:17:08.190090 2015] [core:warn] [pid 3430] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Oct 12 15:17:08.197096 2015] [mpm_prefork:notice] [pid 3430] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Mon Oct 12 15:17:08.197135 2015] [core:notice] [pid 3430] AH00094: Command line: 'apache2'
+[Mon Oct 12 15:17:21.342740 2015] [core:info] [pid 3449] [client 10.240.0.12:35065] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/
+[Mon Oct 12 16:29:31.240047 2015] [mpm_prefork:notice] [pid 3430] AH00169: caught SIGTERM, shutting down
+[Mon Oct 12 16:29:32.359609 2015] [mpm_prefork:notice] [pid 4701] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Mon Oct 12 16:29:32.359679 2015] [core:notice] [pid 4701] AH00094: Command line: 'apache2'
+[Tue Oct 13 18:11:57.049625 2015] [core:warn] [pid 2195] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 13 18:11:57.056973 2015] [mpm_prefork:notice] [pid 2195] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Tue Oct 13 18:11:57.057014 2015] [core:notice] [pid 2195] AH00094: Command line: 'apache2'
+[Tue Oct 13 18:12:13.156706 2015] [core:info] [pid 2264] [client 10.240.167.252:60942] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
+[Fri Oct 16 21:50:12.109127 2015] [core:warn] [pid 3825] AH00098: pid file /home/ubuntu/lib/apache2/run/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Oct 16 21:50:12.116881 2015] [mpm_prefork:notice] [pid 3825] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Fri Oct 16 21:50:12.116923 2015] [core:notice] [pid 3825] AH00094: Command line: 'apache2'
+[Fri Oct 16 21:50:33.862327 2015] [core:info] [pid 3870] [client 10.240.0.8:55904] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/
+[Sat Oct 17 05:08:26.338819 2015] [core:info] [pid 3865] [client 10.240.167.252:58788] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/coursera/week2/
+[Sat Oct 17 19:58:10.577138 2015] [core:info] [pid 3868] [client 10.240.0.12:58139] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/music.html
+[Sun Oct 18 01:37:38.814874 2015] [core:info] [pid 3865] [client 10.240.0.12:44303] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/
+[Sun Oct 18 01:40:42.255653 2015] [core:info] [pid 3867] [client 10.240.167.252:39889] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/coursera/week2/
+[Sun Oct 18 18:09:19.330263 2015] [core:info] [pid 3864] [client 10.240.167.252:45942] AH00128: File does not exist: /home/ubuntu/workspace/function (){songs[0].file}, referer: https://own-snookid.c9.io/music.html
+[Mon Oct 19 00:16:09.611521 2015] [core:info] [pid 3892] [client 10.240.0.12:38264] AH00128: File does not exist: /home/ubuntu/workspace/coursera/js/number.js, referer: http://own-snookid.c9.io/coursera/week2/
+[Mon Oct 19 00:18:37.773971 2015] [core:info] [pid 3893] [client 10.240.167.252:47992] AH00128: File does not exist: /home/ubuntu/workspace/coursera/js/number.js, referer: http://own-snookid.c9.io/coursera/week2/
+[Mon Oct 19 18:20:16.534118 2015] [core:info] [pid 3865] [client 10.240.0.13:56284] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/coursera/week3/
+[Tue Oct 20 03:14:55.695050 2015] [core:info] [pid 3864] [client 10.240.0.12:52555] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week2/week3_part4.html
+[Tue Oct 20 03:15:04.639895 2015] [core:info] [pid 3865] [client 10.240.0.12:52740] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week23/week3_part4.html
+[Tue Oct 20 13:32:42.853198 2015] [core:info] [pid 3867] [client 10.240.0.12:60512] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/coursera/week3/
+[Tue Oct 20 14:16:43.011591 2015] [core:info] [pid 3864] [client 10.240.169.177:34667] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/coursera/week3/
+[Tue Oct 20 15:01:00.227921 2015] [core:info] [pid 3865] [client 10.240.212.249:51341] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week3/
+[Tue Oct 20 15:04:28.973546 2015] [core:info] [pid 3868] [client 10.240.0.8:54035] AH00128: File does not exist: /home/ubuntu/workspace/coursera/conFusion/css/bootstrap-theme.min.css, referer: https://own-snookid.c9.io/coursera/conFusion/
+[Tue Oct 20 19:39:46.687017 2015] [core:info] [pid 3868] [client 10.240.0.12:57973] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week3/
+[Tue Oct 20 20:31:22.725016 2015] [core:info] [pid 3892] [client 10.240.0.12:44780] AH00128: File does not exist: /home/ubuntu/workspace/function (){songs[0].file}, referer: http://own-snookid.c9.io/music.html
+[Tue Oct 20 20:31:25.630285 2015] [core:info] [pid 3867] [client 10.240.167.252:35300] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: http://own-snookid.c9.io/music.html
+[Tue Oct 20 20:34:24.588438 2015] [core:info] [pid 3868] [client 10.240.167.252:36051] AH00128: File does not exist: /home/ubuntu/workspace/function (){songs[0].file}, referer: http://own-snookid.c9.io/music.html
+[Tue Oct 20 20:35:48.200462 2015] [mpm_prefork:notice] [pid 3825] AH00169: caught SIGTERM, shutting down
+[Tue Oct 20 20:35:49.290280 2015] [mpm_prefork:notice] [pid 29589] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.7 configured -- resuming normal operations
+[Tue Oct 20 20:35:49.290326 2015] [core:notice] [pid 29589] AH00094: Command line: 'apache2'
+[Tue Oct 20 20:35:52.987112 2015] [core:info] [pid 29596] [client 10.240.0.12:45818] AH00128: File does not exist: /home/ubuntu/workspace/function (){songs[0].file}, referer: http://own-snookid.c9.io/music.html
+[Tue Oct 20 20:36:02.312353 2015] [core:info] [pid 29598] [client 10.240.0.12:45846] AH00128: File does not exist: /home/ubuntu/workspace/function (){songs[0].file}, referer: http://own-snookid.c9.io/music.html
+[Tue Oct 20 21:52:04.535712 2015] [core:info] [pid 29597] [client 10.240.208.91:56390] AH00128: File does not exist: /home/ubuntu/workspace/function (){songs[0].file}, referer: http://own-snookid.c9.io/music.html
+[Wed Oct 21 14:12:50.737191 2015] [core:info] [pid 29632] [client 10.240.6.30:58275] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week2/
+[Wed Oct 21 14:13:15.210743 2015] [core:info] [pid 29700] [client 10.240.213.116:54601] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 14:13:15.338129 2015] [core:info] [pid 29704] [client 10.240.0.3:60499] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 14:13:19.645790 2015] [core:info] [pid 29599] [client 10.240.213.116:54624] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:31.127826 2015] [core:info] [pid 29596] [client 10.240.0.8:54799] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:31.188660 2015] [core:info] [pid 29597] [client 10.240.6.30:54255] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:32.284877 2015] [core:info] [pid 29632] [client 10.240.6.30:54268] AH00128: File does not exist: /home/ubuntu/workspace/favicon.ico, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:35.663659 2015] [core:info] [pid 29600] [client 10.240.0.8:54881] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:38.580941 2015] [core:info] [pid 29599] [client 10.240.0.28:44309] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:38.594474 2015] [core:info] [pid 29596] [client 10.240.0.8:54915] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:13:43.717711 2015] [core:info] [pid 29597] [client 10.240.6.30:54380] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:14:41.969983 2015] [core:info] [pid 29632] [client 10.240.0.8:55643] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Wed Oct 21 15:15:01.371403 2015] [core:info] [pid 29600] [client 10.240.6.30:55196] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js
+[Wed Oct 21 15:15:28.366340 2015] [core:info] [pid 29700] [client 10.240.25.150:43069] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
