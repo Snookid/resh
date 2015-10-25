@@ -127,3 +127,5 @@
 [Wed Oct 21 15:14:41.969983 2015] [core:info] [pid 29632] [client 10.240.0.8:55643] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
 [Wed Oct 21 15:15:01.371403 2015] [core:info] [pid 29600] [client 10.240.6.30:55196] AH00128: File does not exist: /home/ubuntu/workspace/coursera/course1/js/matching.js
 [Wed Oct 21 15:15:28.366340 2015] [core:info] [pid 29700] [client 10.240.25.150:43069] AH00128: File does not exist: /home/ubuntu/workspace/coursera/bootstrap3.3.5/css/, referer: https://own-snookid.c9.io/coursera/course1/week3/
+[Sat Oct 24 12:33:33.611946 2015] [core:info] [pid 29598] [client 10.240.0.12:37042] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week2/
+[Sat Oct 24 14:28:53.500090 2015] [core:info] [pid 29597] [client 10.240.0.12:58755] AH00128: File does not exist: /home/ubuntu/workspace/coursera/week2/
